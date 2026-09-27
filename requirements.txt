@@ -1,0 +1,12 @@
+# finrag —— 依赖（版本是本机实测跑通的那一版，Python 3.14.7 / Windows）
+#
+# 装： "C:\Users\yexinyu\AppData\Local\Python\bin\python.exe" -m pip install -r requirements.txt
+# 注意：裸 python 在 Windows 上可能是 Microsoft Store 占位程序，用全路径。
+#
+# sentence-transformers 会把 torch / transformers / huggingface-hub 一并装上
+# （本机实测拿到 torch 2.14.0 + transformers 5.17.0 + huggingface-hub 1.33.0）。
+pymupdf==1.28.2
+jieba==0.42.1
+numpy==2.5.3
+rank-bm25==0.2.2
+sentence-transformers==6.1.0
